@@ -1,7 +1,7 @@
 import {AnyAction, applyMiddleware, combineReducers, legacy_createStore} from "redux";
 import thunkMiddleware, {ThunkDispatch} from "redux-thunk";
 import {TypedUseSelectorHook, useDispatch, useSelector} from "react-redux";
-import {authReducer} from "../features/authHandle/auth-reducer";
+import {authReducer} from "../features/auth/auth-reducer";
 import {appReducer} from "./app-reducer";
 import {profileReducer} from "../features/profile/profile-reducer";
 

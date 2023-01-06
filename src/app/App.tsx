@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import {Navigate, Route, Routes} from "react-router-dom";
-import {Login} from "../features/authHandle/login/Login";
-import {Signup} from "../features/authHandle/signup/Signup";
+import {Login} from "../features/auth/login/Login";
+import {Signup} from "../features/auth/signup/Signup";
 import {Profile} from "../features/profile/Profile";
-import {PageNotFound} from "../features/pageNotFound/PageNotFound";
-import {RestorePassword} from "../features/authHandle/restorePassword/RestorePassword";
-import {EnterNewPassword} from "../features/authHandle/enterPassword/EnterNewPassword";
-import {Test} from "../components/Test";
+import {PageNotFound} from "../common/pageNotFound/PageNotFound";
+import {RestorePassword} from "../features/auth/restorePassword/RestorePassword";
+import {EnterNewPassword} from "../features/auth/enterPassword/EnterNewPassword";
+import {Test} from "../common/Test";
 
 function App() {
   return (
